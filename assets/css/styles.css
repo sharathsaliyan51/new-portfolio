@@ -192,6 +192,7 @@ img {
 .home {
   height: calc(100vh - 3rem);
   row-gap: 1rem;
+  text-align: center;
 }
 .home__data {
   align-self: center;
@@ -217,6 +218,7 @@ img {
   color: var(--first-color);
 }
 .home__img {
+  display: none;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -439,6 +441,7 @@ img {
 
   .home {
     height: 100vh;
+    text-align: left;
   }
   .home__data {
     align-self: flex-end;
@@ -454,8 +457,7 @@ img {
     margin-right: var(--mb-4);
   }
   .home__img {
-    width: 400px;
-    bottom: 15%;
+    display: block;
   }
 
   .about__container,
@@ -495,6 +497,7 @@ img {
     margin-right: auto;
   }
   .home__img {
+    width: 400px;
     right: 10%;
   }
 }
